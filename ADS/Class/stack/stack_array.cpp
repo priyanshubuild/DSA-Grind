@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <cstdlib>
 using namespace std;
 
 class Arraystack{
@@ -10,6 +11,9 @@ public:
         size=n;
         stack=new int [size];
         top=-1;
+    }
+    ~Arraystack(){
+        delete[] stack;
     }
     void push(int x){
         if(top==size-1){
@@ -23,21 +27,21 @@ public:
     }
     int pop(){
         if(isEmpty()){
-            cout<<"stack is empty";
+            cout<<"stack is empty"<<endl;
             return -1;
         }
         return stack[top--];
     }
     int peek(){
         if(isEmpty()){
-            cout<<"stack is empty";
+            cout<<"stack is empty"<<endl;
             return -1;
         }
         return stack[top];
     }
     void display(){
         if(isEmpty()){
-            cout<<"stack is empty";
+            cout<<"stack is empty"<<endl;
             return;
         }
         for(int i=top;i>=0;i--){

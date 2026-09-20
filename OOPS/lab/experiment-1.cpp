@@ -1,5 +1,6 @@
 // write in cpp create a class employee to enter the datails of atlest 2 employees
-#include<bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
 class emp{
@@ -17,9 +18,6 @@ class emp{
 };
 
 int main(){
-
-    string nm,dept;
-    int slr, ag;
     emp e1("prabhat rai",2,21,"cse");
     emp e2("priaynshu gupta",5000,21,"cse");
 
@@ -33,5 +31,5 @@ int main(){
     cout<<"salary:"<<e2.slr<<endl;
     cout<<"age:"<<e2.ag<<endl;      
 
-    
+    return 0;
 }
