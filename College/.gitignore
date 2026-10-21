@@ -1,0 +1,83 @@
+# ==========================================
+# C / C++ Build & Compiled Files
+# ==========================================
+
+# Windows executables
+*.exe
+
+# Linux / macOS executables with extensions
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
+
+
+# ==========================================
+# Build Directories
+# ==========================================
+
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+debug/
+Debug/
+release/
+Release/
+
+
+# ==========================================
+# CMake
+# ==========================================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+
+# ==========================================
+# IDE / Editor Files
+# ==========================================
+
+.vscode/
+.idea/
+
+# Temporary editor files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# ==========================================
+# Existing Linux Executables
+# ==========================================
+
+OOPS/lab1/exp1
+OOPS/lab1/experiment-2
+OOPS/lab1/experiment-1
