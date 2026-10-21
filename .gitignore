@@ -81,3 +81,6 @@ Thumbs.db
 OOPS/lab1/exp1
 OOPS/lab1/experiment-2
 OOPS/lab1/experiment-1
+
+# Local stack executable (keep C++ source files)
+/PGisImproving/stack-self/ll_stack

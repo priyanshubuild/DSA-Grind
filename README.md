@@ -20,18 +20,19 @@ The contents and organization may change as I continue learning and practicing.
 
 | Folder | Contents |
 | --- | --- |
-| `contest/` | Contest practice and solutions |
-| `w1-introduciton/` | Introductory C++ exercises |
-| `w2-loops and pattern printing/` | Loops and pattern-printing exercises |
-| `w3-function/` | Functions and related problems |
-| `w4-arrays/` | Array practice and assignments |
+| `PGisImproving/contest/` | Contest practice and solutions |
+| `PGisImproving/w1-introduciton/` | Introductory C++ exercises |
+| `PGisImproving/w2-loops and pattern printing/` | Loops and pattern-printing exercises |
+| `PGisImproving/w3-function/` | Functions and related problems |
+| `PGisImproving/w4-arrays/` | Array practice and assignments |
+| `PGisImproving/stack-self/` | Personal stack implementations and experiments |
 | `College/ADS/` | College ADS coursework and exercises |
 | `College/OOPS/` | College object-oriented programming coursework |
 
 The college coursework was imported from `College_cpp` into `College/` using a
 history-preserving merge. The original commits, authors, and dates from both
-repositories remain in the Git history. Existing practice folders retain their
-original names and organization. The original college README is retained at
+repositories remain in the Git history. Personal DSA practice is organized under `PGisImproving/`, matching the local
+folder layout. College coursework remains separate under `College/`. The original college README is retained at
 [`College/README.md`](College/README.md).
 
 ## Topics
